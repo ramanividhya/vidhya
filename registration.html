@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        header {
+    background-color: #eec2c2e2;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    font-size: 30px;
+    margin-right: 60px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+li :hover{
+    color:  #e5ab5c;
+} 
+.main {
+    background-color:#eec2c2e2 ;
+    margin-left:410px ;
+    margin-top: 100px;
+    padding: 30px ;
+    width: 600px;   
+}
+body {
+                        background-color: #f4f4f4;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    form {
+                        background-color:#eec2c2e2;
+                        padding: 20px;
+                        max-width: 400px;
+                        margin: 100px auto;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                    input[type="text"], input[type="email"], input[type="password"] {
+                        width: 100%;
+                        padding: 10px;
+                        margin: 8px 0;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+                    input[type="submit"] {
+                        background-color: #0c2072;
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        width: 100%;
+                    }
+        
+    </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <header>
+        <img src="d:\website figma makeup photos\Screenshot__53_-removebg-preview.png" width="8%">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery </a></li>
+                <li><a href="about us.html">About us.</a></li>
+                <li><a href="contact us.html">Contact us.</a></li>
+                <li><a href="login.html"style="background-color:rgba(227, 167, 76, 0.871);border-radius:20px;padding-inline: 20px;padding-block: 7px;margin-left:200px">Login</a></li>
+             </nav>
+            </header>
+        <form action="submit.php" method="post">
+            <h2>Registration Form</h2><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <input type="submit" value="Register">
+        </form>
+</body>
+</html>
